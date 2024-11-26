@@ -122,7 +122,7 @@ const RecruitmentForm = () => {
       }
 
       if (result.status === 'success') {
-        navigate('/recruit');
+        navigate('/athletics-frontend/recruit');
         alert('Application submitted successfully!');
         // Reset form or navigate to a success page
       } else {
